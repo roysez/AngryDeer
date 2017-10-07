@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_main\_scripts\enemy\EnemyMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\vova\PlayerController.cs">
     <Files>
-      <File FileName="Assets\_main\_scripts\enemy\EnemyMovement.cs" Line="19" Column="2" />
+      <File FileName="Assets\vova\PlayerController.cs" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
