@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4881686326722046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseTail4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4995302030431792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLScapula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4178623850424356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4679731511623962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseSpine6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4695911612545770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLRearHoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4286470972744874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4860797483637738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRFemur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4113033213654602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseTail3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4217377457620076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseSpine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4360695901204978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseJaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4360064666598090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLHumerus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4082469545509814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLMetacarpus001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4543877918018036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLPlatform001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4064591508964244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4596091811441320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLMetacarpus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4881735767617366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseScull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4229686392863972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLRadius001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 195865547863071000}
   - component: {fileID: 114921405592535724}
   - component: {fileID: 114325461424522724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeerWrapper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4274487904242322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseTail2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4936368538772900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLFrontHoof 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4510081447268008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRibcage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4956042182607770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseNeck3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4818998017105830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseSpine5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4057524042081922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLLargeCannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4812395373016724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4583279056539764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRPhalanxPrima
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4975444936460816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseTail6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,7 +428,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4527755387712624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLScapula001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4131117131270068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseNeck6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4185535571117938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLFrontHoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4689629928967400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4364829048621674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRRearHoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4528407800528828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,7 +519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4762799928622696}
   - component: {fileID: 137095839428768892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4094222904285954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseTail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4428696913059446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseNeck2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -564,7 +564,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4498214010489774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseTail5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4867007609466496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLFemur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4226790291673886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseSpine4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -609,7 +609,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4731653722465282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Deer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4314030665742570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLHumerus001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4415515065218416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRTibia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -654,7 +654,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4444371998138956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseSpine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +669,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4727775865237528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLPhalangesManus001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +684,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4503127900508590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -699,7 +699,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4600771907507562}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseSpine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -714,7 +714,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4708444121037042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseNeck5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4568987694860432}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorsePelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +744,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4558483245613016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseNeck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4536988738833044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseNeck4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4662804135044140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -789,7 +789,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4210278402353598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLPhalangesManus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +804,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4339348342204646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -819,7 +819,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4882723620390964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLPhalanxPrima
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +834,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4085675695980334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseRLargeCannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +849,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4327804616665938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HorseLTibia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
