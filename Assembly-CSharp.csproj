@@ -56,6 +56,7 @@
      <Compile Include="Assets\_main\_scripts\enemy\EnemyAttack.cs" />
      <Compile Include="Assets\_main\_scripts\enemy\EnemyHealth.cs" />
      <Compile Include="Assets\_main\_scripts\managers\EnemyManager.cs" />
+     <Compile Include="Assets\_main\_scripts\managers\ScoreManager.cs" />
      <Compile Include="Assets\_main\_scripts\player\PlayerAttack.cs" />
      <Compile Include="Assets\_main\_scripts\player\PlayerController.cs" />
      <Compile Include="Assets\_main\_scripts\player\PlayerHealth.cs" />

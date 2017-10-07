@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour {
 
+	public float timeBetweenAttacks = 0.5f;
+	float timer;
 	Animator animator;
 
 	// Use this for initialization
@@ -13,14 +15,16 @@ public class PlayerAttack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown (0)) {
-			
+		timer += Time.deltaTime;
+
+		if(timer >= timeBetweenAttacks && Input.GetMouseButtonDown (0))
+		{
 			Attack ();
-				
 		}
 	}
 
 	void Attack(){
+		timer = 0f;
 		Debug.Log ("Attack");
 		animator.SetTrigger ("Attack");
 	}

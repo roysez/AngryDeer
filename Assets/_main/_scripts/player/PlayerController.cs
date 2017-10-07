@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	public float _forceJumpConst = 1f;
+	public float _forceJumpConst = 1.5f;
 	public float _walkSpeed = 2;
 	public float _runSpeed = 6;
 
@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
 	public float _speedSmoothTime = 0.1f;
 	float _speedSmoothVelocity;
 	float _currentSpeed;
-	float _groundDistance = 0.1f;
+	float _groundDistance = 0;
 
 	Animator _animator;
 	Transform _cameraT;
@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour {
 	private GameObject _raycastPoint;
 
 	private bool _canJump;
+	private bool _canMove;
 
 	Vector2 _axis;
 	bool _running;
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		_raycastPoint = GameObject.Find("RaycastPoint");
 		_canJump = false;
+		_canMove = true;
 		_running = false;
 		_animator = GetComponent<Animator> ();
 		_cameraT = Camera.main.transform;
@@ -71,8 +73,8 @@ public class PlayerController : MonoBehaviour {
 	{
 		RaycastHit hit;
 		Ray landingRay = new Ray (_raycastPoint.transform.position, Vector3.down);
-
-		if (Physics.Raycast (landingRay, out hit, _groundDistance + 0.3f)) 
+		Debug.DrawRay (_raycastPoint.transform.position, Vector3.down * 10f);
+		if (Physics.Raycast (landingRay, out hit, _groundDistance + 0.15f)) 
 		{
 			{
 				return true;
@@ -83,24 +85,27 @@ public class PlayerController : MonoBehaviour {
 		
 	private void move()
 	{
-		Vector2 inputDir = _axis.normalized;
-		_canJump = Input.GetKey (KeyCode.Space);
+		if (_canMove) {
+			Vector2 inputDir = _axis.normalized;
+			_canJump = Input.GetKey (KeyCode.Space);
 
-		if (inputDir != Vector2.zero) 
-		{
-			float targetRotation = Mathf.Atan2 (inputDir.x, inputDir.y) * Mathf.Rad2Deg + _cameraT.eulerAngles.y;
-			transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref _turnSmoothVelocity, _turnSmoothTime);
+			if (inputDir != Vector2.zero) {
+				float targetRotation = Mathf.Atan2 (inputDir.x, inputDir.y) * Mathf.Rad2Deg + _cameraT.eulerAngles.y;
+				transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle (transform.eulerAngles.y, targetRotation, ref _turnSmoothVelocity, _turnSmoothTime);
+			}
+
+			float targetSpeed = ((_running) ? _runSpeed : _walkSpeed) * inputDir.magnitude;
+			_currentSpeed = Mathf.SmoothDamp (_currentSpeed, targetSpeed, ref _speedSmoothVelocity, _speedSmoothTime);
+
+			transform.Translate (transform.forward * _currentSpeed * Time.deltaTime, Space.World);
+
+			float animationSpeedPercent = ((_running) ? 1 : .5f) * inputDir.magnitude;
+			_animator.SetFloat ("speedPercent", animationSpeedPercent, _speedSmoothTime, Time.deltaTime);
 		}
-
-		float targetSpeed = ((_running) ? _runSpeed : _walkSpeed) * inputDir.magnitude;
-		_currentSpeed = Mathf.SmoothDamp (_currentSpeed, targetSpeed, ref _speedSmoothVelocity, _speedSmoothTime);
-
-		transform.Translate (transform.forward * _currentSpeed * Time.deltaTime, Space.World);
-
-		float animationSpeedPercent = ((_running) ? 1 : .5f) * inputDir.magnitude;
-		_animator.SetFloat ("speedPercent", animationSpeedPercent, _speedSmoothTime, Time.deltaTime);
 	}
 
 
-
+	public void ForbitMoving(){
+		_canMove = (_canMove==false)?true:false;
+	}
 }
