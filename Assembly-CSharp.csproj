@@ -52,9 +52,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_main\_scripts\cameraFollow\ThirdPersonCamera.cs" />
-     <Compile Include="Assets\_main\_scripts\enemy\Enemy.cs" />
+     <Compile Include="Assets\_main\_scripts\enemy\EmenyMovement.cs" />
+     <Compile Include="Assets\_main\_scripts\enemy\EnemyAttack.cs" />
+     <Compile Include="Assets\_main\_scripts\enemy\EnemyHealth.cs" />
      <Compile Include="Assets\_main\_scripts\managers\EnemyManager.cs" />
+     <Compile Include="Assets\_main\_scripts\player\PlayerAttack.cs" />
      <Compile Include="Assets\_main\_scripts\player\PlayerController.cs" />
+     <Compile Include="Assets\_main\_scripts\player\PlayerHealth.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
