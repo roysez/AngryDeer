@@ -89,10 +89,11 @@ public class PlayerController : MonoBehaviour {
 			Vector2 inputDir = _axis.normalized;
 			_canJump = Input.GetKey (KeyCode.Space);
 
-			if (inputDir != Vector2.zero) {
+			//if (inputDir != Vector2.zero) 
+			//{
 				float targetRotation = Mathf.Atan2 (inputDir.x, inputDir.y) * Mathf.Rad2Deg + _cameraT.eulerAngles.y;
 				transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle (transform.eulerAngles.y, targetRotation, ref _turnSmoothVelocity, _turnSmoothTime);
-			}
+			//}
 
 			float targetSpeed = ((_running) ? _runSpeed : _walkSpeed) * inputDir.magnitude;
 			_currentSpeed = Mathf.SmoothDamp (_currentSpeed, targetSpeed, ref _speedSmoothVelocity, _speedSmoothTime);

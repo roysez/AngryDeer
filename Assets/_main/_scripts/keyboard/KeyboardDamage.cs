@@ -22,6 +22,7 @@ public class KeyboardDamage : MonoBehaviour {
 	void OnTriggerEnter (Collider other) 
 	{
 		Collider[] colliders = Physics.OverlapBox (transform.position, transform.lossyScale / 2, transform.rotation, _enemyMask);
+
 		for (int i = 0; i < colliders.Length; ++i) 
 		{
 			Vector3 force = colliders [i].transform.position - transform.position;
