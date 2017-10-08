@@ -62,7 +62,8 @@
      <Compile Include="Assets\_main\_scripts\player\PlayerController.cs" />
      <Compile Include="Assets\_main\_scripts\player\PlayerHealth.cs" />
      <Compile Include="Assets\menu\MainMenu.cs" />
-     <None Include="Assets\vova\OutPost\Resources\Assets\Materials\2sided.shader" />
+     <Compile Include="Assets\pause-menu\PauseMenu.cs" />
+     <None Include="Assets\_main\models\enviroment\OutPost\Resources\Assets\Materials\2sided.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
